@@ -1,0 +1,114 @@
+:root{
+    /* color-list */
+    --color-white: #fff;
+    --color-black: #050a19;
+    --color-accent: #03e9f9;
+    --color-orange: #fd6413;
+    --color-gray: #1b1e26;
+
+    /* container-size */
+    --max-size-container: 1200px;
+}
+
+/*-------Commons(공통) : 폰트, 여백, 패딩..---------*/
+* {
+    font-family: 'Open Sans', 'sans-serif';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+/*------------Header Start-----------*/
+.header {
+    background-color: var(--color-black);
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+}
+.header-logo {
+    display: flex;
+    color: var(--color-white);
+}
+.header-menu {
+    display: flex;
+    gap: 4px;
+}
+.header-logo-img {
+    width: 36px;
+    height: 36px;
+}
+.header-menu-item {
+    color: var(--color-white);
+    padding: 8px 16px;
+}
+.header-logo-title {
+    font-size: 1.8rem;
+}
+.header-menu-item.active {
+    border: 1px solid var(--color-accent);
+    border-radius: 4px;
+}
+/*------------Header end-----------*/
+
+/*------------Home Start-----------*/
+#home {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 5rem 1rem;
+    padding-top: 7rem;
+    text-align: center; /*align-content: center; text-align: center; 둘 차이점 알아보기*/
+    
+    
+}
+.home-img {
+
+}
+.home-title {
+
+}
+strong {
+    color: var(--color-accent);
+}
+.home-description {
+
+}
+.home-contact {
+    background-color: var(--color-accent);
+    color: var(--color-black);
+    border-radius: 4px;
+}
+
+/*------------Home end-----------*/
+
+/*------------About Start-----------*/
+/*------------About end-----------*/
+
+/*------------Skills Start-----------*/
+/*------------Skills end-----------*/
+
+/*------------My work start-----------*/
+/*------------My work end-----------*/
+
+/*------------Testimonial Start-----------*/
+/*------------Testimonial end-----------*/
+
+/*------------Contact Start-----------*/
+/*------------Contact end-----------*/
+
+/*------------Footer start-----------*/
+/*------------Footer end-----------*/

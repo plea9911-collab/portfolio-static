@@ -100,7 +100,7 @@ a.header-menu-item.active {
     background-color: var(--color-black);
     color: var(--color-white);
     padding: 5rem 1rem;
-    padding: 7rem;
+    padding-top: 7rem;
     text-align: center;
 }
 .home-avater {
