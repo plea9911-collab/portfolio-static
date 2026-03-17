@@ -14,6 +14,7 @@
         rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
         <header>
             <section class="header">
                 <div class="header-logo">
@@ -33,49 +34,198 @@
             </section>
         </header>
         <main>
+            <!-- Home -->
             <section id="home">
                 <img src="../images/favicon.ico" alt="home-img" class="home-img">
                 <h2 class="home-title">
                     Hello I'm <strong>Junior Developer</strong>, Judy</h2>
                 <p class="home-description">A software engineer currently residing in Seoul, South Korea</p>
-                <p class="home-contact"><a href="#">contact me</a></p>
+                <a class="home-contact" href="#">contact me</a>
             </section>
-
-            <section id="about">
-                <h2 class="about-title">About me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            <!-- About -->
+            <section id="about" class="section container">
+                <h2 class="title">About me</h2>
+                <p class="about-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                     Eveniet ipsum culpa neque ullam eum suscipit cum corporis 
                     incidunt itaque minus a sint repellat quis beatae cupiditate, 
                     totam ex nulla ratione.</p>
                     <ul class="majors">
-                        <li><i class="fa-brands fa-html5"></i>
-                            <span class="major">Front-end</span>
-                            <p>Html, CSS, JavaScript, React, WebAPls</p>
+                        <li class="major">
+                            <i class="fa-brands fa-html5"></i>
+                            <p class="major-title">Front-end</p>
+                            <p class="">Html, CSS, JavaScript, React, WebAPls</p>
                         </li>
-                        <li><i class="fa-solid fa-mobile"></i>
-                            <span class="major">Mobile</span>
+                        <li class="major">
+                            <i class="fa-solid fa-mobile"></i>
+                            <p class="major-title">Mobile</p>
                             <p>Android Studio, React Native, iOS, Swift, Java, Kotlin</p>
                         </li>
-                        <li><i><i class="fa-solid fa-server"></i></i>
-                            <span class="major">Back-end</span>
+                        <li class="major"><i>
+                            <i class="fa-solid fa-server"></i></i>
+                            <p class="major-title">Back-end</p>
                             <p>Java, JavaScript, Kotlin, Spring, Spring Boot</p>
                         </li>
                     </ul>
-                    <ul>
-                        <li>
+                    <ul class="jobs">
+                        <li class="job">
                             <img src="../images/jobs/google.png" alt="google">
-                            <p>Google as Jucior software Engineer</p>
+                            <div>
+                                <p class="job-name">Google as Jucior software Engineer</p>
+                                <p class="job-period">2019 Oct - Untill now</p>
+                            </div>
                         </li>
-                        <li>
+                        <li class="job">
                             <img src="../images/jobs/samsung.png" alt="samsung">
-                            <p>Samsung as Jucior software Engineer</p>
+                            <div>
+                                <p class="job-name">Samsung as Jucior software Engineer</p>
+                                <p class="job-period">2010 Oct - 2019 Oct</p>
+                            </div>
                         </li>
                     </ul>
             </section>
-            <section id="skills"></section>
-            <section id="my work"></section>
-            <section id="testimonial"></section>
-            <section id="contact"></section>
+            <!-- Skills -->
+            <section id="skills" class="section container">
+                <h2 class="title">My skills</h2>
+                <p class="description">Skills & Attributes</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem eveniet aspernatur placeat amet numquam nemo illo suscipit, 
+                    officiis libero impedit, ipsa pariatur, provident saepe expedita dolor 
+                    aliquam dolore natus. Quo.</p>
+                    <div class="skills">
+                        <article class="skills-coding">
+                            <h3 class="skills-title">Coding Skills</h3>
+                            <ul>
+                                <li class="bar">
+                                    <div class="bar-title"><span>HTML</span><span>98%</span></div>
+                                    <div class="bar-bg">
+                                    <div class="bar-value" style="width: 98%;"></div>
+                                </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar-title"><span>CSS</span><span>90%</span></div>
+                                    <div class="bar-bg">
+                                    <div class="bar-value" style="width: 90%;"></div>
+                                </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar-title"><span>JavaScript</span><span>90%</span></div>
+                                    <div class="bar-bg">
+                                    <div class="bar-value" style="width: 90%;"></div>
+                                </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar-title"><span>TypeScript</span><span>80%</span></div>
+                                    <div class="bar-bg">
+                                    <div class="bar-value" style="width: 80%;"></div>
+                                </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar-title"><span>React</span><span>79%</span></div>
+                                    <div class="bar-bg">
+                                    <div class="bar-value" style="width: 79%;"></div>
+                                </div>
+                                </li>
+                                <li class="bar">
+                                    <div class="bar-title"><span>nodejs</span><span>68%</span></div>
+                                    <div class="bar-bg">
+                                    <div class="bar-value" style="width: 68%;"></div>
+                                </div>
+                                </li>
+                            </ul>
+                        </article>
+                        <article class="skills-tools">
+                            <h3 class="skills-title">tools</h3>
+                            <ul>
+                                <div>
+                                    <li>Visual studio</li>
+                                    <li>IntelliJ</li>
+                                    <li>Android Studio</li>
+                                    <li>Eclipse</li>
+                                    <li>MySQL Workbench</li>
+                                </div>
+                            </ul>
+                        </article>
+                        <article class="skills-etc">
+                            <h3 class="skills-title">etc</h3>
+                            <ul>
+                                <li>git</li>
+                                <li>Scrum  Master</li>
+                                <li>SVW</li>
+                            </ul>
+                        </article>
+                    </div>
+            </section>
+
+            <section id="work" class="section container">
+                <h2 class="title">My Work</h2>
+                <p class="description">Projects</p>
+                <ul class="categories">
+                    <li><button class="category">All<span class="category-count">8</span></button></li>
+                    <li><button class="category">Fornt-end<span class="category-count">4</span></button></li>
+                    <li><button class="category">Back-end<span class="category-count">2</span></button></li>
+                    <li><button class="category">Mobile<span class="category-count">2</span></button></li>
+                </ul>
+                <ul class="projects">
+                <li class="project">
+                    <img class="project-img" src="../images/projects/project1.webp" alt="projact-img">
+                    <div class="project-meta">
+                        <h3 class="project-meta-title">Project#1</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                    </div>
+                </li>
+                <li class="project">
+                    <img class="project-img" src="../images/projects/project2.webp" alt="projact-img">
+                    <div class="project-meta">
+                        <h3 class="project-meta-title">Project#2</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                    </div>
+                </li>
+                <li class="project">
+                    <img class="project-img" src="../images/projects/project3.webp" alt="projact-img">
+                    <div class="project-meta">
+                        <h3 class="project-meta-title">Project#3</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                    </div>
+                </li>
+                <li class="project">
+                    <img class="project-img" src="../images/projects/project4.webp" alt="projact-img">
+                    <div class="project-meta">
+                        <h3 class="project-meta-title">Project#4</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                    </div>
+                </li>
+                <li class="project">
+                    <img class="project-img" src="../images/projects/project5.webp" alt="projact-img">
+                    <div class="project-meta">
+                        <h3 class="project-meta-title">Project#5</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                    </div>
+                </li>
+                <li class="project">
+                    <img class="project-img" src="../images/projects/project6.webp" alt="projact-img">
+                    <div class="project-meta">
+                        <h3 class="project-meta-title">Project#6</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                    </div>
+                </li>
+                <li class="project">
+                    <img class="project-img" src="../images/projects/project7.webp" alt="projact-img">
+                    <div class="project-meta">
+                        <h3 class="project-meta-title">Project#7</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                    </div>
+                </li>
+                <li class="project">
+                    <img class="project-img" src="../images/projects/project8.webp" alt="projact-img">
+                    <div class="project-meta">
+                        <h3 class="project-meta-title">Project#8</h3>
+                        <p>Clone Coding with HTML, CSS</p>
+                    </div>
+                </li>
+            </ul>
+            </section>
+            <section id="testimonial" class="section container"></section>
+            <section id="contact" class="section container"></section>
         </main>
         <footer class="fooeter">
             <section class="footer"></section>
