@@ -27,6 +27,23 @@ a {
     font-size: 2.5rem;
     margin: 1rem 0;
 }
+section, footer {
+    padding: 4rem;
+    text-align: center;
+}
+section.container {
+    width: var(--max-size-container);
+    max-width: 100%;
+    margin: auto;
+}
+.title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+.description {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
 /*------------Header Start-----------*/
 .header {
     background-color: var(--color-black);
@@ -91,11 +108,13 @@ strong {
     background-color: var(--color-accent);
     color: var(--color-black);
     border-radius: 4px;
+    padding: 3px;
 }
 
 /*------------Home end-----------*/
 
 /*------------About Start-----------*/
+
 /*------------About end-----------*/
 
 /*------------Skills Start-----------*/
